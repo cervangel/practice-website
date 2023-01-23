@@ -1,0 +1,63 @@
+body{
+    background-color:  rgb(213, 208, 253);
+}
+.title {
+    text-align: center;
+    margin: 1em auto;
+    /*border: solid thick;*/
+    background: -webkit-radial-gradient(center, lemonchiffon, lightblue);
+    background: -moz-radial-gradient(center, lemonchiffon, lightblue);
+    background: radial-gradient(center, lemonchiffon, lightblue);
+    
+}
+.welcome {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border: groove;
+    background-color: lemonchiffon;
+    border-color: rgb(122, 130, 248);
+}
+.dancingKid{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+}
+img{
+    margin: 80px;
+    -webkit-transform: -webkit-transform 4s;
+    -moz-transform: -moz-transform 4s;
+    -o-transform: -o-transform 4s;
+    transition: transform 4s;
+
+}
+img:hover {
+    
+    -webkit-transform: rotate(360deg) scale(2, 2);
+    -moz-transform: rotate(360) scale(2, 2);
+    -o-transform: rotate(360) scale(2, 2);
+    transform: rotate(360) scale(2, 2);
+}
+
+form {
+    width: 60vw;
+    max-width: 500px;
+    min-width: 300px;
+    margin: 0 auto;
+    padding-bottom: 2em;
+  }
+
+label {
+    display: block;
+    margin: 0.5rem 0;
+  }
+
+.list{
+    text-align: center;
+    margin: auto auto;
+  }
+
+ul, li {
+    text-align: center;
+}
